@@ -1,0 +1,32 @@
+<kie-server-state>
+  <controllers>
+    <string></string>
+  </controllers>
+  <configuration>
+    <configItems>
+      <config-item>
+        <name>org.kie.server.controller</name>
+        <value></value>
+        <type>java.lang.String</type>
+      </config-item>
+      <config-item>
+        <name>org.kie.server.location</name>
+        <value>http://localhost:8090/rest/server</value>
+        <type>java.lang.String</type>
+      </config-item>
+    </configItems>
+  </configuration>
+  <containers>
+    <container>
+      <containerId>evaluation</containerId>
+      <releaseId>
+        <groupId>org.jbpm.test</groupId>
+        <artifactId>evaluation</artifactId>
+        <version>1.0.0</version>
+      </releaseId>
+      <status>STARTED</status>
+      <configItems/>
+      <messages/>
+    </container>
+  </containers>
+</kie-server-state>
